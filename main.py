@@ -10,7 +10,7 @@ from googleapiclient.errors import HttpError
 from email.mime.text import MIMEText
 
 # Set up OpenAI API
-openai.api_key = "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"
+openai.api_key = "API_Key"
 
 def generate_response(prompt):
     response = openai.ChatCompletion.create(
